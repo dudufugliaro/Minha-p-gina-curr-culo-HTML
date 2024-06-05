@@ -1,0 +1,36 @@
+.header__nomefoto {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 2% 0% 2%;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+    margin: 0% 15% 0% 15%;
+    gap: 150px;
+    font-size: 55px;
+    font-weight:400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foto__curriculo {
+    width: 160px;
+    height: 160px;
+}
+
+.destaque {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.lista__curriculo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0% 15% 0% 15%;
+    padding: 1% 2% 1% 2%;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 10px;
+}
+
+.informacoes__curriculo {
+    list-style-type:square;
+    margin-left: 20px;  
+}
